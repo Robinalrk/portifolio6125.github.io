@@ -1,0 +1,270 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Loka Ram Kalyan Are, a data science aspirant focused on Python, machine learning, NLP, analytics, and deployable model demos.">
+  <meta name="theme-color" content="#08110f">
+  <title>Loka Ram Kalyan Are | Portfolio</title>
+  <link rel="icon" href="simple-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="motion-bg" aria-hidden="true">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="top-progress" id="top-progress"></div>
+
+  <header class="header">
+    <a href="#home" class="brand">
+      <img src="simple-icon.png" alt="LRK icon">
+      <div>
+        <strong>Loka Ram Kalyan Are</strong>
+        <small>Data Science Aspirant</small>
+      </div>
+    </a>
+
+    <div class="header-tools">
+      <button id="menu-toggle" class="menu-toggle" aria-controls="nav" aria-expanded="false" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav id="nav" class="nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="home" class="shell">
+    <section class="hero reveal">
+      <div class="hero-left">
+        <p class="hero-tag">Data Science Aspirant</p>
+        <h1>Turning messy data into readable decisions.</h1>
+        <p class="hero-line">
+          I am Loka Ram Kalyan Are,<br>
+          <span class="type-wrap">interested in <span id="role-type" aria-live="polite"></span><span class="cursor" aria-hidden="true">|</span></span>
+        </p>
+        <div class="hero-stats" aria-label="Data science focus stats">
+          <article>
+            <strong>04</strong>
+            <span>ML Projects</span>
+          </article>
+          <article>
+            <strong>12+</strong>
+            <span>Core Tools</span>
+          </article>
+          <article>
+            <strong>02</strong>
+            <span>NLP Builds</span>
+          </article>
+        </div>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-solid">See Projects</a>
+          <a href="mailto:kalyanlokaram@gmail.com" class="btn btn-outline">Contact</a>
+        </div>
+      </div>
+      <aside class="hero-right data-console" aria-label="Animated data science dashboard">
+        <div class="profile-orbit">
+          <img src="pic.png" alt="Loka Ram Kalyan Are profile">
+          <span></span>
+          <span></span>
+        </div>
+        <div class="chart-panel">
+          <div class="chart-top">
+            <span>Portfolio Focus</span>
+            <strong>active</strong>
+          </div>
+          <div class="line-chart" aria-hidden="true">
+            <svg viewBox="0 0 420 130" role="img">
+              <defs>
+                <linearGradient id="chartLine" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stop-color="var(--primary)" />
+                  <stop offset="58%" stop-color="var(--violet)" />
+                  <stop offset="100%" stop-color="var(--accent)" />
+                </linearGradient>
+              </defs>
+              <path class="chart-grid-line" d="M0 34H420M0 74H420M0 114H420" />
+              <path class="chart-area" d="M10 96 C54 86, 88 73, 124 70 S194 48, 235 52 S308 82, 356 56 S392 38, 412 30 L412 130 L10 130 Z" />
+              <path class="chart-path" d="M10 96 C54 86, 88 73, 124 70 S194 48, 235 52 S308 82, 356 56 S392 38, 412 30" />
+              <circle cx="10" cy="96" r="5" />
+              <circle cx="124" cy="70" r="5" />
+              <circle cx="235" cy="52" r="5" />
+              <circle cx="356" cy="56" r="5" />
+              <circle cx="412" cy="30" r="5" />
+            </svg>
+          </div>
+          <div class="bar-race" aria-label="Pipeline metrics">
+            <div><span>Python</span><i style="--w: 90%; --d: 0ms;"></i></div>
+            <div><span>ML/NLP</span><i style="--w: 86%; --d: 140ms;"></i></div>
+            <div><span>Deploy</span><i style="--w: 78%; --d: 280ms;"></i></div>
+          </div>
+        </div>
+        <div class="hero-note">Projects include algorithm visualization, a Python package, NLP spam detection, and cyber hate speech classification.</div>
+      </aside>
+    </section>
+
+    <section id="about" class="about reveal">
+      <h2>About</h2>
+      <p>
+        I build data-driven applications that go beyond experiments. My work combines model development, feature engineering, evaluation metrics, and lightweight deployment, with clean and maintainable Python code.
+      </p>
+      <div class="data-flow" aria-label="Data science workflow">
+        <span>Collect</span>
+        <span>Clean</span>
+        <span>Model</span>
+        <span>Evaluate</span>
+        <span>Deploy</span>
+      </div>
+    </section>
+
+    <section id="projects" class="projects reveal">
+      <div class="section-head">
+        <h2>Projects</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card tilt">
+          <span class="project-chip">Visualization</span>
+          <h3>AlgoView</h3>
+          <p>Algorithm visualizer for searching, sorting, and BST operations with interactive explanation flow.</p>
+          <a href="https://algoview6125.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+        </article>
+
+        <article class="project-card tilt">
+          <span class="project-chip">Python Package</span>
+          <h3>Algopract</h3>
+          <p>Published Python package for reusable algorithm components and easy usage patterns.</p>
+          <a href="https://pypi.org/project/algopract/" target="_blank" rel="noopener noreferrer">PyPI</a>
+        </article>
+
+        <article class="project-card tilt">
+          <span class="project-chip">NLP Model</span>
+          <h3>Spam SMS Detection</h3>
+          <p>NLP spam classification pipeline including preprocessing, feature extraction, and Flask deployment.</p>
+          <a href="https://github.com/Robinalrk/smsspamdetect" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </article>
+
+        <article class="project-card tilt">
+          <span class="project-chip">Text Classification</span>
+          <h3>Cyber Hate Speech Detection</h3>
+          <p>Supervised classification model for offensive content with accuracy-focused evaluation.</p>
+          <a href="https://github.com/Robinalrk/hatedetect" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="skills reveal">
+      <div class="section-head">
+        <h2>Technical Skills</h2>
+      </div>
+
+      <div class="skills-layout">
+        <div class="skills-cloud" id="skills-cloud">
+          <span>Python</span>
+          <span>Machine Learning</span>
+          <span>Pandas</span>
+          <span>NumPy</span>
+          <span>Matplotlib</span>
+          <span>Seaborn</span>
+          <span>NLP</span>
+          <span>Flask</span>
+          <span>SQL</span>
+          <span>Git</span>
+          <span>JavaScript</span>
+          <span>Data Structures</span>
+        </div>
+
+        <div class="skills-bars">
+          <article class="skill-meter" data-fill="90">
+            <label>Data Science Workflow</label>
+            <div><i></i></div>
+          </article>
+          <article class="skill-meter" data-fill="87">
+            <label>Machine Learning</label>
+            <div><i></i></div>
+          </article>
+          <article class="skill-meter" data-fill="84">
+            <label>Python Development</label>
+            <div><i></i></div>
+          </article>
+          <article class="skill-meter" data-fill="80">
+            <label>Analytics & Visualization</label>
+            <div><i></i></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience reveal">
+      <div class="section-head">
+        <h2>Experience</h2>
+      </div>
+      <div class="exp-list">
+        <article>
+          <h3>Data Science Intern - SkillDzire</h3>
+          <small>Oct 2024 - Mar 2025</small>
+          <p>Worked on preprocessing, feature engineering, and model evaluation in practical ML workflows.</p>
+        </article>
+        <article>
+          <h3>Cybersecurity Virtual Intern - SkillDzire</h3>
+          <small>Mar 2024 - May 2024</small>
+          <p>Studied threat modeling, vulnerability analysis, and secure system design principles.</p>
+        </article>
+        <article>
+          <h3>Full Stack Web Development Intern - Pantech</h3>
+          <small>Mar 2023 - May 2023</small>
+          <p>Built backend-integrated web apps and implemented SQL-based workflows with APIs.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="education reveal">
+      <div class="section-head">
+        <h2>Education</h2>
+      </div>
+      <div class="edu-grid">
+        <article>
+          <h3>Gitam University, Bangalore</h3>
+          <small>2025 - 2027</small>
+          <p>M.Tech in Data Science</p>
+        </article>
+        <article>
+          <h3>Annamacharya Institute of Technology and Sciences</h3>
+          <small>2022 - 2025</small>
+          <p>B.Tech in Computer Science and Engineering</p>
+        </article>
+        <article>
+          <h3>Sri Venkateswara Government Polytechnic</h3>
+          <small>2019 - 2022</small>
+          <p>Diploma in Electronics and Communication Engineering</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact reveal">
+      <h2>Areas of Interest</h2>
+      <p>Software Development, Data Science, Machine Learning, and Problem Solving.</p>
+      <div class="hero-actions center">
+        <a href="mailto:kalyanlokaram@gmail.com" class="btn btn-solid">Email Me</a>
+        <a href="https://github.com/Robinalrk" class="btn btn-outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/loka-ram-kalyan-are-b59379240/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year">2026</span> Loka Ram Kalyan Are. Built around data, models, and useful software.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
